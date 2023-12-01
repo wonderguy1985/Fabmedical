@@ -1,4 +1,4 @@
-FROM node:alpine AS base
+FROM node:21.2-alpine3.18 AS base
 WORKDIR /usr/src/app
 
 FROM node:argon AS build
